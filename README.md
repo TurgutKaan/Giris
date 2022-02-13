@@ -1,3 +1,3 @@
-# Giris
+# Introduction to C# 
 
 C# Fundamentals
