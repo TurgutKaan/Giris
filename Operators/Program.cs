@@ -1,32 +1,33 @@
 ﻿// Operatörler;
 
 // = atama operatörüdür, sağdaki değeri sola atar.
-//int z = 1;
-//string s = "1";
+int z = 1;
+string s = "1";
 
 //atama operatörlerinde kural sağdaki tip ile soldaki tip birbirine eşit olmalıdır.
-//int u = "1"; // değerin tipi string olduğu için int tipindeki bir değişkene atanamaz.
-//byte b = 1;
-//int c = b;// b tipi int tipi ile ortak olduğu için bu atama yapılabilir.
+
+int u = "1"; // değerin tipi string olduğu için int tipindeki bir değişkene atanamaz.
+byte b = 1;
+int c = b;  // b tipi int tipi ile ortak olduğu için bu atama yapılabilir.
 
 // Aritmatic Operators;
-//int sonuc = 3 + 4; // toplama operatörü
-//Console.WriteLine(sonuc);
+int sonuc = 3 + 4; // toplama operatörü
+Console.WriteLine(sonuc);
 
-//sonuc = sonuc + 5;
-//Console.WriteLine(sonuc);
+sonuc = sonuc + 5;
+Console.WriteLine(sonuc);
 
-//sonuc += 5;
-//Console.WriteLine(sonuc);
+sonuc += 5;
+Console.WriteLine(sonuc);
 
-//int sonuc2 = 3 * 4;
-//Console.WriteLine(sonuc2);
+int sonuc2 = 3 * 4;
+Console.WriteLine(sonuc2);
 
-//sonuc2 = sonuc2 * 2;
-//Console.WriteLine(sonuc2);
+sonuc2 = sonuc2 * 2;
+Console.WriteLine(sonuc2);
 
-//sonuc2 *= 10;
-//Console.WriteLine(sonuc2);
+sonuc2 *= 10;
+Console.WriteLine(sonuc2);
 
 //int sonuc;
 
@@ -63,11 +64,11 @@
 
 //Console.WriteLine(i==j); // i j'ye eşit mi? eşitse true değilse false çıkar sonuç
 
-//Console.WriteLine("a"=="b"); // string değer olarak a b'ye eşit mi?
+Console.WriteLine("a"=="b"); // string değer olarak a b'ye eşit mi?
 
-//Console.WriteLine('c'=='d'); // char olarak c d'ye eşit mi?
+Console.WriteLine('c'=='d'); // char olarak c d'ye eşit mi?
 
-/*Console.WriteLine("Turgut Kaan" == "Turgut Kaan");*/ // Büyük harf küçük harfe dikkat ederek karşılaştırır. bu case de true
+Console.WriteLine("Turgut Kaan" == "Turgut Kaan"); // Büyük harf küçük harfe dikkat ederek karşılaştırır. bu case de true
 
 // Eşit değil 
 

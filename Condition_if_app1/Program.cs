@@ -2,43 +2,45 @@
 
 // Benim yazdığım yer
 
-//Console.WriteLine("Sayı Girin");
-//int sayi = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Sayı Girin");
+int sayi = Convert.ToInt32(Console.ReadLine());
 
-//if (sayi == 0)
-//{
-//    Console.WriteLine("Sayı 0");
-//}
+if (sayi == 0)
+{
+    Console.WriteLine("Sayı 0");
+}
 
-//else if ( sayi>1 && sayi < 100)
-//{
-//    Console.WriteLine("Sayı Pozitif");
-//}
+else if (sayi > 1 && sayi <= 100)
+{
+    Console.WriteLine("Sayı Pozitif");
+}
 
-//else if (sayi<0)
-//{
-//    Console.WriteLine("Sayı Negatif");
-//}
+else if (sayi < 0)
+{
+    Console.WriteLine("Sayı Negatif");
+}
 
-//else
-//{
-//    Console.WriteLine("Sayıyı Beğenmedim");
-//}
+else
+{
+    Console.WriteLine("Sayıyı Beğenmedim");
+}
 
+Console.WriteLine("----------------------------------");
 
 // Hocayla yazdığım yer
 
 Console.WriteLine("Sayı Giriniz");
-int sayi = Convert.ToInt32(Console.ReadLine());
-if (sayi <= 100)  // girilen sayı 100'den küçük mü?
+int sayi2 = Convert.ToInt32(Console.ReadLine());
+
+if (sayi2 <= 100)  // girilen sayı 100'den küçük mü?
 {
-    if (sayi < 0)
+    if (sayi2 < 0)
     {
         Console.WriteLine("Negatif");
     }
-    else if (sayi == 0)
+    else if (sayi2 == 0)
     {
-        Console.WriteLine("0");
+        Console.WriteLine("Sayı 0");
     }
     else
     {

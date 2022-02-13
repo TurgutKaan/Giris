@@ -29,71 +29,71 @@ float ortalama = vize + final;
 
 Console.WriteLine("Ortalamanız = " + ortalama);
 
-//if ( ortalama < 25)
-//{
-//    Console.WriteLine("Kaldınız...");
-//}
-//if (ortalama > 25)
-//    {
-//    if (ortalama < 40)
-//    {
-//        Console.WriteLine("Notunuz : F");
-//    }
+if (ortalama < 25)
+{
+    Console.WriteLine("Kaldınız...");
+}
+if (ortalama > 25)
+{
+    if (ortalama < 40)
+    {
+        Console.WriteLine("Notunuz : F");
+    }
 
-//    if (ortalama > 40 && ortalama <= 50)
-//    {
-//        Console.WriteLine("Notunuz : D ");
-//    }
+    if (ortalama > 40 && ortalama <= 50)
+    {
+        Console.WriteLine("Notunuz : D ");
+    }
 
-//    if (ortalama > 50 && ortalama <= 59)
-//    {
-//        Console.WriteLine("Notunuz : D+");
-//    }
+    if (ortalama > 50 && ortalama <= 59)
+    {
+        Console.WriteLine("Notunuz : D+");
+    }
 
-//    if ( ortalama > 60 && ortalama <= 65)
-//    {
-//        Console.WriteLine("Notunuz : C-");
-//    }
+    if (ortalama > 60 && ortalama <= 65)
+    {
+        Console.WriteLine("Notunuz : C-");
+    }
 
-//    if (ortalama > 66 && ortalama <= 70)
-//    {
-//        Console.WriteLine("Notunuz : C");
-//    }
+    if (ortalama > 66 && ortalama <= 70)
+    {
+        Console.WriteLine("Notunuz : C");
+    }
 
-//    if (ortalama > 71 && ortalama <= 75)
-//    {
-//        Console.WriteLine("Notunuz : C+");
-//    }
+    if (ortalama > 71 && ortalama <= 75)
+    {
+        Console.WriteLine("Notunuz : C+");
+    }
 
-//    if (ortalama > 76 && ortalama <= 80)
-//    {
-//        Console.WriteLine("Notunuz : B-");
-//    }
+    if (ortalama > 76 && ortalama <= 80)
+    {
+        Console.WriteLine("Notunuz : B-");
+    }
 
-//    if (ortalama > 81 && ortalama <= 85)
-//    {
-//        Console.WriteLine("Notunuz : B");
-//    }
+    if (ortalama > 81 && ortalama <= 85)
+    {
+        Console.WriteLine("Notunuz : B");
+    }
 
-//    if (ortalama > 86 && ortalama <= 90)
-//    {
-//        Console.WriteLine("Notunuz : B+");
-//    }
+    if (ortalama > 86 && ortalama <= 90)
+    {
+        Console.WriteLine("Notunuz : B+");
+    }
 
-//    if (ortalama >90 && ortalama <= 95)
-//    {
-//        Console.WriteLine("Notunuz : A-");
-//    }
+    if (ortalama > 90 && ortalama <= 95)
+    {
+        Console.WriteLine("Notunuz : A-");
+    }
 
-//    if (ortalama > 96 && ortalama <= 100)
-//    {
-//        Console.WriteLine("Notunuz : A");
-//    }
-//}
-//else
-//{
-//    Console.WriteLine("Öyle bi not yok");
-//}
+    if (ortalama > 96 && ortalama <= 100)
+    {
+        Console.WriteLine("Notunuz : A");
+    }
+}
+else
+{
+    Console.WriteLine("Öyle bi not yok");
+}
 
 // Not: Eğer if bloğunun içerisinde tek satırlık kod varsa scope aç kapaya gerek yoktur.
 
@@ -194,5 +194,3 @@ Console.WriteLine("Ortalamanız = " + ortalama);
 //{
 //    Console.WriteLine("Ders Tekrarı");
 //}
-
-

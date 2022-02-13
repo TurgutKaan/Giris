@@ -19,11 +19,11 @@ else // değilse (sayi1 sayi2'den büyük değilse)
 }
 Console.WriteLine("En büyük sayı = " + enb);
 
-if (sayi1 > sayi2)
-{
-    Console.WriteLine("En Büyük Sayı = " + sayi1);
-}
-else
-{
-    Console.WriteLine("En Büyük Sayı = " + sayi2);
-}
+//if (sayi1 > sayi2)
+//{
+//    Console.WriteLine("En Büyük Sayı = " + sayi1);
+//}
+//else
+//{
+//    Console.WriteLine("En Büyük Sayı = " + sayi2);
+//}

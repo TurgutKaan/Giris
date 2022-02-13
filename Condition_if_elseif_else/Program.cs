@@ -19,12 +19,6 @@ else
 {
     Console.WriteLine("Sayılar Eşittir");
 }
-Console.WriteLine("Program Doğru Sonucu Buldu");
-
-
-
-
-
 
 // Daha doğru yazımı yukarıda
 
