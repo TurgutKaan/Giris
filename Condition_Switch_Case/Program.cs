@@ -2,7 +2,8 @@
                 Switch Case Yapısı 
 Daha sadece ifadeler(koşullar) yazmak için kullanılır.
 
-    Switch(değer){
+    Switch(değer)
+    {
         case sabitdeger1: 
             <kosulluKod>
         break;
