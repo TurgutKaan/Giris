@@ -12,9 +12,19 @@ for (int i = 0; i<sayilar.Length; i++)
 {
     Console.WriteLine($"Lütfen {i + 1}. sayıyı girin");
     int sayi = Convert.ToInt32(Console.ReadLine());
-  
-}
 
-Console.WriteLine(sayilar.Max());
-Console.WriteLine(sayilar.Min());
-Console.WriteLine(sayilar.Average());
+    if (Array.IndexOf(sayilar, sayi) == -1) // sayi'yi sayilarda ara.
+    {
+        sayilar[i] = sayi;
+    }
+    else
+    {
+        i--; // i'yi azalt.
+    }
+} 
+
+Console.WriteLine($"Sayıların en büyüğü : {sayilar.Max()}");
+Console.WriteLine($"Sayıların en küçüğü : {sayilar.Min()}");
+Console.WriteLine($"Sayıların ortalaması : {sayilar.Average()}");
+
+

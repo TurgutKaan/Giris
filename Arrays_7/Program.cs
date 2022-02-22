@@ -22,3 +22,13 @@ while (i < sayis.Length)
 Console.WriteLine($"En Büyüğü {sayis.Max()}");
 Console.WriteLine($"En Küçüğü {sayis.Min()}");
 Console.WriteLine($"Ortalaması {sayis.Average()}");
+
+
+Console.WriteLine("-------------------------------");
+
+int a=1, b=2;
+int[] nums = {a,b};
+Array.Reverse(nums);
+a = nums[0];
+b = nums[1];
+Console.WriteLine($"a={a} & b={b}");
