@@ -14,10 +14,6 @@
 
         string[] palindromes = cumle.Split(' ');
 
-        //Console.WriteLine($"{palindromes[0]}");
-
-        //string[] palindromes = new string[0];
-
         foreach (var item in palindromes)
         {
             char[] ch = item.ToCharArray();
@@ -35,15 +31,6 @@
                 Console.WriteLine($"{item} 'palindrome kelimedir' ");
             else
                 Console.WriteLine(item);
-            //Console.WriteLine(item);
         }
     }
-
-    //static bool IsPalindrome(string kelime)
-    //{
-    //    bool isp = true; // geçici true değeri verdik
-    //    // eğer kelime palindrome ise isp true, değilse false atanmalı
-
-    //    return isp; // isp i dön.
-    //}
 }
