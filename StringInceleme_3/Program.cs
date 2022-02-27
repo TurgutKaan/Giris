@@ -29,15 +29,17 @@ string Name = FullName.Substring(0, 1);
 
 Console.WriteLine($"Hoş Geldin {FullName}");
 
+Console.WriteLine("---------------------------");
+
 // Split => Metni belirtilen karaktere göre parçalar ve dizi döner
 string FullName2 = FullName;
 string[] temp = FullName2.Split(' '); // boşluk karakterine göre diziye ayır. (parçala dizi yap)
 Console.WriteLine($"Hoş Geldin {temp[0]}");
 
 string aaaa = "ekrem,emre,ahmet";
-string [] ogrenciler = aaaa.Split(' '); 
+string [] ogrenciler = aaaa.Split(' ');
 
-// Replace =Z Metin içerisinde karakter değiştirir.
+// Replace => Metin içerisinde karakter değiştirir.
 string metin = "ekrem yıldırım";
 metin = metin.Replace("ı", "i");
 
